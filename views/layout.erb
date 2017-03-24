@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+
+<html ng-app="Icons" ng-controller="MainController" ng-init="init()">
+
+  <head>
+
+    <title> Baza ikon v2 </title>
+
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+
+    <link rel="stylesheet" property="stylesheet" href="stylesheet/main.css">
+    <link rel="shortcut icon" href="img/icon.ico">
+
+  </head>
+
+  <body>
+
+    <%= yield %>
+
+  </body>
+
+    <script src="scripts/libs/angular.min.js"></script>
+    <script src="scripts/libs/angular-ui-router.min.js"></script>
+    <script src="scripts/libs/angular-sanitize.min.js"></script>
+
+    <script src="scripts/app.js"></script>
+
+    <script src="scripts/controllers/main.controller.js"></script>
+    <script src="scripts/controllers/menu.controller.js"></script>
+    <script src="scripts/controllers/icons.controller.js"></script>
+
+    <script src="scripts/services/database.service.js"></script>
+
+
+</html>
