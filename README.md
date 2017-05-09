@@ -1,3 +1,3 @@
-# SINATRA-SKELETON APP
+# SINATRA APP TEMPLATE
 ===============
 
